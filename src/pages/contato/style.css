@@ -108,3 +108,32 @@ footer{
     font-size: 16px;
     line-height: 19px;
 }
+@media (min-width: 768px){
+    .subheader{
+        justify-content: center;
+        height: 8rem;
+    }
+    .subheader span{
+        font-size: 25px;
+        line-height: 28px;
+    }
+    section{ 
+        margin-bottom: 2rem;
+        justify-content: center;
+        height: 6.8rem;
+        font-size: 17px;
+        line-height: 19px;
+        font-weight: bold;
+    }
+    .social-medias{
+        margin-top: 7rem;
+    }
+    .social-medias img{
+        width: 8rem;
+    }
+    footer{
+        height: 8rem;
+        font-size: 25px;
+        line-height: 28px;
+    }
+}
