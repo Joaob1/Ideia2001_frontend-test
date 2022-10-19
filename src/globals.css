@@ -1,0 +1,16 @@
+html{
+    font-size: 62.5%;
+    --color-grey-primary: #444242;
+    --color-grey-secondary: #5B5A5A;
+    --color-orange-primary: #FA9401;
+    --color-orange-secondary: #FFB64E;
+    --color-white: #FFFFFF;
+    --color-subheader: #F2F2F2;
+    --color-outline: #E8E8E8;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}

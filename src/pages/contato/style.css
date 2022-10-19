@@ -1,0 +1,110 @@
+@import url('../../globals.css');
+.container_contact{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    padding-right: 1.6rem;
+    width: 100%;
+    height: 6.4rem;
+    background-color: var(--color-grey-primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-header{
+    width: 12.2rem;
+    justify-self: center;
+    margin-right: -4rem;
+}
+header img:first-child{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    
+}
+.header_buttons{
+    display: flex;
+    width: 7.4rem;
+}
+.header_car{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+.header_car span{
+    width: 1.6rem;
+    height: 1.6rem;
+    background-color: var(--color-orange-primary);
+    color: var(--color-white);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0.8rem;
+    top: -0.6rem;
+}
+.subheader{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+    height: 5rem;
+    background-color: var(--color-subheader);
+}
+.subheader span{
+    color: var(--color-orange-primary);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    order: 2;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 1.5rem;
+}
+section{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid var(--color-outline);
+    height: 4.8rem;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+section img{
+    margin-right: 1.7rem;
+}
+.endereco address{
+    all: unset;
+}
+.social-medias{
+    margin-top: 4.6rem;
+    width: 100%;
+    height: 3.4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-decoration: none;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-orange-primary);
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
